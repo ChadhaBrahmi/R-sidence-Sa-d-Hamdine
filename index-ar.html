@@ -1,189 +1,176 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-    <link href="style.css" rel="stylesheet">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <link rel="icon" href="logo.jfif" type="image/jfif">
-    <title>إقامة سعيد حمدين</title>
-    </head>
-<body data-theme="light">
-<div class="container">
-<header>
-    <div class="brand">
-        <div>
-            <div style="font-weight:700">إقامة سعيد حمدين</div>
-        </div>
-    </div>
+  <link href="style.css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" href="logo.jfif" type="image/jfif">
+  <title>إقامة سعيد حمدين</title>
+</head>
 
-    <div class="header-right">
+<body data-theme="light">
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div>
+          <div style="font-weight:700">إقامة سعيد حمدين</div>
+        </div>
+      </div>
+
+      <div class="header-right">
         <nav>
-            <button class="short" data-scroll="home">الرئيسية</button>
-            <button class="short" data-scroll="menu">القائمة</button>
-            <button class="short" data-scroll="buses">الحافلات</button>
-            <button class="short" data-scroll="activities">الأنشطة</button>
-            <button class="short" data-scroll="contact">اتصل بنا</button>
+          <button class="short" data-scroll="home">الرئيسية</button>
+          <button class="short" data-scroll="menu">قائمة الطعام</button>
+          <button class="short" data-scroll="buses">جدول الحافلات</button>
+          <button class="short" data-scroll="activities">الأنشطة</button>
+          <button class="short" data-scroll="contact">اتصال</button>
         </nav>
 
         <div class="header-controls">
-            <select id="lang" title="اللغة">
-                <option value="ar" selected>AR</option>
-                <option value="en">EN</option>
-                <option value="fr">FR</option>
-            </select>
+          <select id="lang" title="اللغة">
+            <option value="en">EN</option>
+            <option value="fr">FR</option>
+            <option value="ar" selected>AR</option>
+          </select>
         </div>
-    </div>
-</header>
+      </div>
+    </header>
 
-<main>
-<section id="home">
-    <h1>مرحباً بكم في إقامة سعيد حمدين</h1>
+    <main>
+      <section id="home">
+        <h1>مرحبًا بكم في إقامة سعيد حمدين</h1>
 
-    <div class="gallery" id="homeGallery">
-        <img src="hamdin.jfif" alt="صورة الإقامة 1">
-        <img src="hamdin1.jfif" alt="صورة الإقامة 2">
-        <img src="hamdin2.jfif" alt="صورة الإقامة 3">
-    </div>
-</section>
+        <div class="gallery" id="homeGallery">
+          <img src="hamdin.jfif" alt="صورة الإقامة 1">
+          <img src="hamdin1.jfif" alt="صورة الإقامة 2">
+          <img src="hamdin2.jfif" alt="صورة الإقامة 3">
+        </div>
+      </section>
 
-<section id="menu">
-    <h2>الجدول الأسبوعي للوجبات</h2>
-    <table id="menuTable">
-        <thead></thead>
-        <tbody>
-        <tr>
-            <td>الأحد</td>
-            <td><strong>شاي، خبز مع مربى</strong><br><span class="time">07:00–09:00</span></td>
-            <td><strong>سلطة مشكلة، دجاج، أرز</strong><br><span class="time">11:30–13:30</span></td>
-            <td><strong>فواكه موسمية، ماء</strong><br><span class="time">18:30–20:30</span></td>
-        </tr>
-        <tr>
-            <td>الاثنين</td>
-            <td><strong>حليب + قهوة، خبز مع زبدة</strong><br><span class="time">07:00–09:00</span></td>
-            <td><strong>سلطة مشكلة، معكرونة، فواكه موسمية، ماء</strong><br><span class="time">11:30–13:30</span></td>
-            <td><strong>أرز مع دجاج، شوربة، ماء</strong><br><span class="time">18:30–20:30</span></td>
-        </tr>
-        <tr>
-            <td>الثلاثاء</td>
-            <td><strong>حليب + قهوة، معجنات</strong><br><span class="time">07:00–09:00</span></td>
-            <td><strong>سلطة مشكلة، لحم، بطاطا، فواكه موسمية، ماء</strong><br><span class="time">11:30–13:30</span></td>
-            <td><strong>دجاج، فواكه موسمية، ماء</strong><br><span class="time">18:30–20:30</span></td>
-        </tr>
-        <tr>
-            <td>الأربعاء</td>
-            <td><strong>حليب + قهوة، خبز مع زبدة</strong><br><span class="time">07:00–09:00</span></td>
-            <td><strong>سلطة مشكلة، سمك، فواكه موسمية، ماء</strong><br><span class="time">11:30–13:30</span></td>
-            <td><strong>أرز مع لحم، شوربة، ماء</strong><br><span class="time">18:30–20:30</span></td>
-        </tr>
-        <tr>
-            <td>الخميس</td>
-            <td><strong>حليب + قهوة، معجنات</strong><br><span class="time">07:00–09:00</span></td>
-            <td><strong>سلطة مشكلة، خضروات، دجاج، حلوى كريمية، ماء</strong><br><span class="time">11:30–13:30</span></td>
-            <td><strong>أرز مع لحم، شوربة، ماء</strong><br><span class="time">18:30–20:30</span></td>
-        </tr>
-        <tr>
-            <td>الجمعة</td>
-            <td><strong>حليب + قهوة، خبز مع زبدة</strong><br><span class="time">07:00–09:00</span></td>
-            <td><strong>سلطة مشكلة، لحم، فواكه موسمية، ماء</strong><br><span class="time">11:30–13:30</span></td>
-            <td><strong>خضروات، فواكه موسمية، ماء</strong><br><span class="time">18:30–20:30</span></td>
-        </tr>
-        <tr>
-            <td>السبت</td>
-            <td><strong>حليب + قهوة، خبز</strong><br><span class="time">07:00–09:00</span></td>
-            <td><strong>سلطة مشكلة، لحم، فواكه موسمية، ماء</strong><br><span class="time">11:30–13:30</span></td>
-            <td><strong>خضروات، فواكه موسمية، ماء</strong><br><span class="time">18:30–20:30</span></td>
-        </tr>
-        </tbody>
-    </table>
-</section>
+      <section id="menu">
+        <h2>جدول الوجبات الأسبوعي</h2>
+        <img src="food.jpg" class="menu-image" alt="صورة قائمة الطعام">
+      </section>
 
-<section id="buses">
-    <h2>جدول الحافلات</h2>
-    <table id="busTable">
-        <thead>
-        <tr>
-            <th>الخط</th>
-            <th>مواعيد الانطلاق</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>القوبة</td>
-            <td>07:30 • 08:00 • 08:30 • 09:00 • 09:30 • 10:00 • 10:30 • 11:00 • 11:30 • 12:00 • 13:00 • 14:00 • 15:00 • 16:00 • 17:00</td>
-        </tr>
-        <tr>
-            <td>1 مايو</td>
-            <td>07:30 • 08:00 • 08:30 • 09:00 • 09:30 • 10:00 • 10:30 • 11:00 • 11:30 • 12:00 • 13:00 • 14:00 • 15:00 • 16:00 • 17:00</td>
-        </tr>
-        <tr>
-            <td>تافورة</td>
-            <td>07:30 • 08:00 • 08:30 • 09:00 • 09:30 • 10:00 • 10:30 • 11:00 • 11:30 • 12:00 • 13:00 • 14:00 • 15:00 • 16:00 • 17:00</td>
-        </tr>
-        <tr>
-            <td>بوزريعة</td>
-            <td>07:30 • 08:00 • 08:30 • 09:00 • 09:30 • 10:00 • 10:30 • 11:00 • 11:30 • 12:00 • 13:00 • 14:00 • 15:00 • 16:00 • 17:00</td>
-        </tr>
-        </tbody>
-    </table>
-</section>
+      <section id="buses">
+        <h2>جدول الحافلات</h2>
+        <table id="busTable">
+          <thead>
+            <tr>
+              <th>الوجهة</th>
+              <th>مواعيد الانطلاق</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>القبة</td>
+              <td>07:15 • 07:30 • 07:45 • 08:00 • 08:30 • 09:00 • 09:30 • 10:00 • 10:30 • 11:00 • 11:30 • 12:00 • 12:30 • 13:00 • 13:30 • 14:00 • 14:30 • 15:30</td>
+            </tr>
+            <tr>
+              <td>الأول من ماي</td>
+              <td>07:30 • 08:30 • 09:30 • 10:30 • 11:30 • 12:30 • 13:30 • 14:30</td>
+            </tr>
+            <tr>
+              <td>تافورة</td>
+              <td>07:15 • 08:00 • 09:00 • 10:00 • 11:00 • 12:15 • 13:00 • 14:00 • 16:00</td>
+            </tr>
+            <tr>
+              <td>بوزريعة</td>
+              <td>07:30 • 08:00 • 08:30 • 09:00 • 09:30 • 10:00 • 10:30 • 11:00 • 11:30 • 13:00 • 14:00 • 15:00</td>
+            </tr>
+            <tr>
+              <td>شاتوناف</td>
+              <td>07:30 • 08:30 • 09:30 • 10:30 • 11:30 • 12:30 • 13:30 • 14:30 • 15:30 • 16:30</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
 
-<section id="activities">
-    <h2>الأنشطة</h2>
+      <section id="activities">
+        <h2>الأنشطة</h2>
 
-    <div class="activities-grid">
-        <div class="activity-box">
+        <div class="activities-grid">
+
+          <div class="activity-box">
             <div class="activity-info">
-                <h3>صالة الألعاب الرياضية</h3>
-                <p><strong>الوقت:</strong> 19:00 – 22:00</p>
+              <h3>قاعة الرياضة</h3>
+              <p><strong>الوقت:</strong> 19:00 – 22:00</p>
             </div>
             <div class="activity-slideshow" id="gymSlideshow">
-                <img src="gym1.jfif" alt="صورة صالة رياضية 1" class="active">
-                <img src="gym2.jfif" alt="صورة صالة رياضية 2">
-                <img src="gym0.jfif" alt="صورة صالة رياضية 3">
+              <img src="gym1.jfif" alt="صورة القاعة 1" class="active">
+              <img src="gym2.jfif" alt="صورة القاعة 2">
+              <img src="gym0.jfif" alt="صورة القاعة 3">
             </div>
-        </div>
+          </div>
 
-        <div class="activity-box">
+          <div class="activity-box">
             <div class="activity-info">
-                <h3>كرة القدم</h3>
-                <p><strong>الوقت:</strong> 20:00 – 22:00</p>
+              <h3>كرة القدم</h3>
+              <p><strong>الوقت:</strong> 20:00 – 22:00</p>
             </div>
             <div class="activity-slideshow">
-                <img src="football.jfif" alt="صورة كرة القدم" class="active">
+              <img src="football.jfif" alt="صورة كرة القدم" class="active">
             </div>
-        </div>
-    </div>
-</section>
+          </div>
 
-<footer id="contact>
-    <div class="footer-content">
-        <div id="contact" class="footer-section contact">
-            <h3>اتصل بنا</h3>
+        </div>
+      </section>
+
+      <section id="facilities">
+        <h2>المرافق في الإقامة</h2>
+
+        <div class="facilities-grid">
+          <div class="facility-box">
+            <img src="supermarket.jpg" class="facility-img" alt="سوبرات">
+            <h3>سوبرات</h3>
+          </div>
+
+          <div class="facility-box">
+            <img src="maktba.jfif" class="facility-img" alt="مكتبة">
+            <h3>مكتبة</h3>
+          </div>
+
+          <div class="facility-box">
+            <img src="studyroom.jpg" class="facility-img" alt="قاعة دراسة">
+            <h3>قاعة دراسة</h3>
+          </div>
+
+          <div class="facility-box">
+            <img src="clinic.jpg" class="facility-img" alt="العيادة">
+            <h3>العيادة</h3>
+          </div>
+        </div>
+      </section>
+
+      <footer id="contact">
+        <div class="footer-content">
+          <div class="footer-section contact">
+            <h3>اتصال</h3>
             <p>البريد الإلكتروني: contact@ikama.example</p>
             <p>الهاتف: +213 6X XX XX XX</p>
-            <p>العنوان: إقامة سعيد حمدين، الجزائر، الجزائر</p>
-        </div>
+            <p>العنوان: إقامة سعيد حمدين، الجزائر</p>
+          </div>
 
-        <div class="footer-section hours">
+          <div class="footer-section hours">
             <h3>ساعات العمل</h3>
-            <p>صباحاً: 08:00 – 12:00</p>
-            <p>مساءً: 12:00 – 16:00</p>
-        </div>
+            <p>الصباح: 08:00 – 12:00</p>
+            <p>المساء: 12:00 – 16:00</p>
+          </div>
 
-        <div class="footer-section map">
+          <div class="footer-section map">
             <h3>الموقع</h3>
             <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.2497340228965!2d3.0319753!3d36.7310533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128faded9ca0bdf7%3A0x551fdb9bb5e41ad0!2sSaid%20Hamdine%20University%20City%20for%20Young%20Girls!5e0!3m2!1sar!2sdz!4v1708828860000!5m2!1sar!2sdz" 
-                width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.2497340228965!2d3.0319753!3d36.7310533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128faded9ca0bdf7%3A0x551fdb9bb5e41ad0!2sSaid%20Hamdine%20University%20City%20for%20Young%20Girls!5e0!3m2!1sen!2sdz!4v1708828860000!5m2!1sen!2sdz" 
+              width="100%" height="180" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
         </div>
-    </div>
 
-    <div class="footer-bottom">
-     <p>© 2025 Résidence Saïd Hamdine — made by <a href="https://chadha-brahmi.vercel.app/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Brahmi Chadha</a></p>
+        <div class="footer-bottom">
+          <p>© 2025 إقامة سعيد حمدين — صُنع بواسطة <a href="https://chadha-brahmi.vercel.app/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">برحمي شذى</a></p>
+        </div>
+      </footer>
 
-    </div>
-</footer>
-
+    
 <script>
 
     document.getElementById('lang').addEventListener('change', e=>{
@@ -249,7 +236,8 @@ document.getElementById('themeToggle').onclick=()=>{const body=document.body;con
 document.querySelectorAll('button[data-scroll]').forEach(btn=>btn.onclick=()=>{document.getElementById(btn.dataset.scroll).scrollIntoView({behavior:'smooth'})})
 
 document.getElementById('searchBox').oninput=(e)=>{const q=e.target.value.toLowerCase();document.querySelectorAll('section').forEach(s=>{s.style.display=s.textContent.toLowerCase().includes(q)?'block':'none'})}
-
 </script>
+    </main>
+  </div>
 </body>
 </html>
